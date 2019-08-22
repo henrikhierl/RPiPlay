@@ -1,0 +1,11 @@
+[Unit]
+Description=RPiPlay
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
